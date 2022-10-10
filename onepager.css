@@ -1,3 +1,7 @@
+*
+{
+    font-family: sans-serif;
+}
 .whiteBackground{
     background-color: white;
 }
@@ -6,7 +10,7 @@
 }
 .greybackground
 {
-    background-color:#f3f6f7;
+    background-color:#b5639e;
 }
 .center
 {
@@ -27,6 +31,8 @@
 .learnmore
 {
     color: #0167f3;
+    font-size: 70%;
+    font-weight: 800;
 }
 .spaceA
 {
@@ -34,7 +40,7 @@
 }
 .pageTwo
 {
-    padding: 10% 20% 30% 20%;
+    padding: 2% 20% 17% 20%;
 }
 .flex {
   display: flex;
@@ -67,8 +73,34 @@
   color:#0267F4;
   
 }
-
+.titleP2 {
+    font-weight: 799;
+    font-size: 250%;
+    font-family: sans-serif;
+    margin-bottom: 1%;
+}
+.quoteP2
+{
+    color: rgba(108, 108, 108, 255);
+    padding: 0% 21% 0% 21%;
+    text-align: center;
+}
+.servicesP2
+{
+    margin: 2%;
+}
+.sectionP2
+{
+    font-size: 200%;
+    font-weight: 100;
+    margin: 0%;
+    padding-top: 4%;
+}
+.parP2
+{
+    font-size: 60%;
+    font-weight: 700;
+}
 .title_header {
   flex-direction: column;
 }
-

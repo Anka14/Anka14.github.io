@@ -1,0 +1,20 @@
+.pageThree{
+ display: flex;   
+}
+.flex{
+    justify-content: center;
+    flex-direction: row;
+}
+
+.whiteBackground{
+    background-color: white;
+}
+.subjectPage{
+    text-align: center;
+}
+.second{
+   
+}
+.images{
+ 
+}

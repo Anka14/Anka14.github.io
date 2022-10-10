@@ -1,13 +1,3 @@
-.pageThree{
- display: flex; 
-flex-direction: row;
-}
-.flex{
-    justify-content: center;
-    
-
-}
-
 .whiteBackground{
     background-color: white;
 }
@@ -20,3 +10,72 @@ flex-direction: row;
 .images{
  
 }
+
+.greybackground
+{
+    background-color:#f3f6f7;
+}
+.center
+{
+    justify-content: center;
+}
+.column
+{
+    flex-direction: column;
+}
+.aligncenter
+{
+    align-items: center;
+}
+.spaceB
+{
+    justify-content: space-between;
+}
+.learnmore
+{
+    color: #0167f3;
+}
+.spaceA
+{
+    justify-content: space-around;
+}
+.pageTwo
+{
+    padding: 10% 20% 30% 20%;
+}
+.flex {
+  display: flex;
+  
+}
+.pageOne {
+  background-color:#0267F4;
+}
+
+.nav {
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+  color:white;
+
+}
+
+.par_to_Nav {
+  padding:2x;
+}
+
+.btn_nav_container {
+  align-items: center;
+}
+.btn_nav {
+  border: 1px solid grey;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  color:#0267F4;
+  
+}
+
+.title_header {
+  flex-direction: column;
+}
+

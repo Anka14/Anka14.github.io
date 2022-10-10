@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+  
+}
+.pageOne {
+  background-color:#0267F4;
+}
+
+.nav {
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+  color:white;
+
+}
+
+.par_to_Nav {
+  padding:2x;
+}
+
+.btn_nav_container {
+  align-items: center;
+}
+.btn_nav {
+  border: 1px solid grey;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  color:#0267F4;
+  
+}
+
+.title_header {
+  flex-direction: column;
+}
+

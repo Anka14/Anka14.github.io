@@ -1,3 +1,36 @@
+
+.greybackground
+{
+    background-color:#f3f6f7;
+}
+.center
+{
+    justify-content: center;
+}
+.column
+{
+    flex-direction: column;
+}
+.aligncenter
+{
+    align-items: center;
+}
+.spaceB
+{
+    justify-content: space-between;
+}
+.learnmore
+{
+    color: #0167f3;
+}
+.spaceA
+{
+    justify-content: space-around;
+}
+.pageTwo
+{
+    padding: 10% 20% 30% 20%;
+}
 .flex {
   display: flex;
   
@@ -33,4 +66,5 @@
 .title_header {
   flex-direction: column;
 }
+
 

@@ -50,27 +50,43 @@
   background-color:#0267F4;
 }
 
+
+
 .nav {
-  justify-content: space-around;
+  /*justify-content: space-around;*/
   padding-left: 150px;
   padding-right: 150px;
   color:white;
 
 }
 
+
+
+.par_to_Nav_white_color {
+  color:white;
+
+
+}
+
 .par_to_Nav {
   padding:2x;
+  color:#C7DBFC
 }
+
 
 .btn_nav_container {
   align-items: center;
 }
+
+
 .btn_nav {
   border: 1px solid grey;
   width: 100px;
   height: 30px;
   border-radius: 5px;
   color:#0267F4;
+  font-weight: bold;
+  font-size: 11px;
   
 }
 .titleP2 {
@@ -102,5 +118,62 @@
     font-weight: 700;
 }
 .title_header {
-  flex-direction: column;
+  /*flex-direction: column;*/
+  font-size: 50px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight:900;
+}
+
+.header {
+ /* justify-content: center;*/
+}
+
+.title_header {
+  color: #FFFFFF;
+}
+.description_header_title{
+  color:#FFFFFF;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+/* how to make padding between btn*/
+.btn_header {
+  /*justify-content: space-around;*/
+  
+}
+
+.btn_header_header {
+  border: 1px  #0267F4;
+  width: 130px;
+  height: 30px;
+  border-radius: 30px;
+  font-size: 10px;
+  color:#0267F4;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+.btn_header_header_two {
+  border: 1px solid white;
+  width: 130px;
+  height: 30px;
+  border-radius: 30px;
+  font-size: 10px;
+  background-color:#0267F4; 
+  color:white;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.arrow_left_header {
+  width: 30px;
+  height: 30px;
+  
+  
 }

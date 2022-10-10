@@ -72,3 +72,28 @@
   flex-direction: column;
 }
 
+.justifyRight {
+justify-content: right;
+}
+  .PaddingRight{
+    padding-right: 15%;
+  }
+
+.btn-page-three{
+  
+  border: none;
+ background-color: white;
+ text-align: center;
+ margin: 5% 250% 0% 10%;
+
+ height: 30%;
+  width: 300%;
+}
+
+
+.first-btn-3pg{
+  border-radius: 30px 30px;
+  background-color: #0267F4;
+  color: white;
+  text-align: center;
+}

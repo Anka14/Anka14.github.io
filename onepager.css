@@ -1,3 +1,15 @@
+.whiteBackground{
+    background-color: white;
+}
+.subjectPage{
+    text-align: center;
+}
+.second{
+   
+}
+.images{
+ 
+}
 
 .greybackground
 {
@@ -66,5 +78,4 @@
 .title_header {
   flex-direction: column;
 }
-
 

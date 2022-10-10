@@ -1,9 +1,11 @@
 .pageThree{
- display: flex;   
+ display: flex; 
+flex-direction: row;
 }
 .flex{
     justify-content: center;
-    flex-direction: row;
+    
+
 }
 
 .whiteBackground{

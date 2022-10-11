@@ -49,9 +49,6 @@
 .pageOne {
   background-color:#0267F4;
 }
-
-
-
 .nav {
   /*justify-content: space-around;*/
   padding-left: 150px;
@@ -124,10 +121,6 @@
   font-weight:900;
 }
 
-.header {
- /* justify-content: center;*/
-}
-
 .title_header {
   color: #FFFFFF;
 }
@@ -137,13 +130,6 @@
   font-size: 12px;
   font-weight: lighter;
 }
-
-/* how to make padding between btn*/
-.btn_header {
-  /*justify-content: space-around;*/
-  
-}
-
 .btn_header_header {
   border: 1px  #0267F4;
   width: 130px;

@@ -56,8 +56,6 @@
   background-color:#0267F4;
   width: 100%;
 }
-
-
 .nav {
   padding-left: 150px;
   padding-right: 150px;
@@ -128,11 +126,9 @@
   font-family:'Times New Roman', Times, serif;
   font-weight:900;
 }
-
 .header-description{
 width:30vw;
 }
-
 .title_header {
   font-size: 50px;
   font-family:'Times New Roman', Times, serif;
@@ -146,7 +142,6 @@ width:30vw;
   font-size: 12px;
   font-weight: lighter;
 }
-
 .btn_header_header {
   border: 1px  #0267F4;
   width: 130px;

@@ -46,38 +46,38 @@
   display: flex;
   
 }
-.pageOne {
-  background-color:#0267F4;
+
+.alignItem_end {
+  align-items: flex-end;
 }
 
+
+.pageOne {
+  background-color:#0267F4;
+  width: 100%;
+}
 
 
 .nav {
-  /*justify-content: space-around;*/
   padding-left: 150px;
   padding-right: 150px;
   color:white;
-
+  
 }
-
-
 
 .par_to_Nav_white_color {
   color:white;
+  
+}
 
-
+.line_nav {
+  line-height: 1px;
 }
 
 .par_to_Nav {
   padding:2x;
   color:#C7DBFC
 }
-
-
-.btn_nav_container {
-  align-items: center;
-}
-
 
 .btn_nav {
   border: 1px solid grey;
@@ -87,8 +87,13 @@
   color:#0267F4;
   font-weight: bold;
   font-size: 11px;
-  
 }
+
+
+.btn_nav_container {
+  padding-top: 10px;
+  }
+
 .titleP2 {
     font-weight: 799;
     font-size: 250%;
@@ -124,24 +129,22 @@
   font-weight:900;
 }
 
-.header {
- /* justify-content: center;*/
+.header-description{
+width:30vw;
 }
 
 .title_header {
+  font-size: 50px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight:900;
   color: #FFFFFF;
 }
+
 .description_header_title{
   color:#FFFFFF;
   font-family: 'Times New Roman', Times, serif;
   font-size: 12px;
   font-weight: lighter;
-}
-
-/* how to make padding between btn*/
-.btn_header {
-  /*justify-content: space-around;*/
-  
 }
 
 .btn_header_header {
@@ -152,10 +155,8 @@
   font-size: 10px;
   color:#0267F4;
   font-weight: bolder;
-  font-family: 'Times New Roman', Times, serif;
-  
+  font-family: 'Times New Roman', Times, serif; 
 }
-
 
 .btn_header_header_two {
   border: 1px solid white;
@@ -187,6 +188,11 @@ justify-content: right;
 }
 
 
+
+.header_arrow_description{
+width: 15vw;
+}
+
 .first-btn-3pg{
   border-radius: 30px 30px;
   background-color: #0267F4;
@@ -198,6 +204,71 @@ justify-content: right;
 .arrow_left_header {
   width: 30px;
   height: 30px;
+  align-self:baseline;
+  padding-top: 120px; 
+}
+
+.header_arrow_right_description{
+  width: 15vw; 
+}
+
+.header_arrow_right {
+  align-self:baseline;
+  padding-top: 120px; 
+}
+
+.header_line {
+  width: 3vw;
+}
+
+.header-line_img {
+  padding-bottom: 40px;
+  padding-left: 70px;
+  width: 35px;
+  height: 30px; 
+}
+
+.pageFive {
+  background: white ;
+}
+
+.sectionFive_img_down{
+  width: 10vw;
   
-  
+}
+.down_arrow {
+  width: 20px;
+  height: 20px;
+  align-self: baseline;
+  padding-top:125px;
+}
+
+.photo_two_right_point {
+  width: 20px;
+  height: 20px;
+  align-self: baseline;
+  padding-top: 150px;
+}
+
+.section_arrow {
+  width: 10vw;
+}
+
+.photo_three_right_point {
+  width: 20px;
+  height: 20px;
+  align-self: baseline;
+  padding-top:28px;
+}
+
+.par_three {
+  font-weight: bold;
+}
+
+.par_one {
+  padding: 10px;
+}
+
+.title_pageFive{
+  color: #0167f3;
 }

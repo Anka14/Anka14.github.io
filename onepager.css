@@ -267,3 +267,64 @@ width: 15vw;
 .title_pageFive{
   color: #0167f3;
 }
+
+#testimonials{
+  color: #0167f3;
+  margin-top: 5%;
+}
+
+.pageSix{
+  width: 100%;
+  height: 100%;
+}
+.leftSide{
+  width: 50%;
+  padding: 2%;
+  margin-left: 15%;
+  
+}
+.rightSide{
+  width: 50%;
+  margin-right: 15%;
+ 
+}
+.clientsSaysPg6{
+  margin-top: -2%;
+  padding: 0%;
+}
+.line1{
+  height: 5px;
+  width: 12%;
+  background-color: #c9daf7;
+  margin-right: 2%;
+}
+.line2{
+  height: 90%;
+  width: 3%;
+  background-color: #c9daf7;
+  margin-right: 2%;
+}
+.line3{
+  height: 90%;
+  width: 2%;
+  background-color: #c9daf7;
+  margin-right: 2%;
+}
+.line4{
+  height: 90%;
+  width: 1%;
+  background-color: #c9daf7;
+  margin-right: 2%;
+}
+.lineBag{
+  justify-content:flex-start;
+
+  padding: 2px;
+  
+}
+.backgroundRightSide{
+background-image: url(./assets/pg6.JPG);
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: -3%;
+}

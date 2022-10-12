@@ -300,13 +300,7 @@ width: 300%;
 .pageEight {
   width: 100%;
 }
-.pageEight_header {
-  width: 100%;
-}
 
-.my_map {
-  width: 80%;
-}
 
 #testimonials{
   color: #0167f3;
@@ -399,3 +393,98 @@ margin-bottom: -3%;
     margin: 0 0 5% 0;
 }
 
+#name, #email {
+background-repeat: no-repeat;
+background-position:right;
+height: 25px;
+padding-right: 20px;
+}
+
+ #name {
+background-image: url(assets/man_input.png);
+}
+
+#email {
+  background-image: url(assets/input_envelope.png) ;
+}
+
+#textarea {
+  background-image: url(assets/input_write.png);
+  background-repeat: no-repeat;
+  background-position:100% 0;
+  padding-right: 20px;
+}
+
+.lable_title_name, .lable_title_email{
+  width: 28% ;
+}
+
+.margin_input {
+  margin: 0% 2% 0% 0%;
+}
+
+
+.textarea_input {
+  width: 58%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn_wrapper input {
+  border: none;
+  background-color:#0167f3;
+  text-align: center;
+  border-radius: 10px 10px;
+  color: white;
+  font-weight: 800;
+  padding: 1% 1% 1% 1%;
+  word-spacing: -2px;
+}
+
+.margin_submit {
+ margin: 1% 0% 1% 0%;
+}
+
+.section_title_message {
+  justify-content: flex-start;
+  margin: 0% 2% 0% 0%;
+}
+
+.margin_section_title_message {
+  margin-left: 21%;
+  margin-top:5%;
+  margin-bottom: 1%;
+}
+
+.img_envelope {
+  width:3%;
+  height: 3%;
+}
+
+.span_word {
+  font-size: xx-large;
+  font-weight:900;
+}
+
+.span_word_two {
+  font-size: xx-large;
+  font-weight: lighter;
+}
+
+.shadow {
+  box-shadow: 10px 4px 1àpx 3px black;
+}
+
+.pageEight_title {
+  font-size: xx-large;
+  font-weight:900;
+}
+
+.header_par {
+  color: gray;
+}
+
+.section_icons_description {
+  padding-left: 15%;
+  margin-right: 15%;
+}

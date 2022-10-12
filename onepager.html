@@ -267,11 +267,10 @@
                 <h1 class ='pageEight_title flex center'>Contact</h1>
                 <p class = 'header_par'>Stop wasting time and money designing and managing a website <br>
                     that doesn't get results.Happiness guaranteed!</p> 
-                <iframe  class ='map_iframe flex center' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25234.570872057808!2d-122.41405950000001!3d37.75906239999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e3c5f803323%3A0x35800073de45189!2sMission%20District%2C%20San%20Francisco%2C%20Californi%C3%AB%2C%20Verenigde%20Staten!5e0!3m2!1snl!2sbe!4v1665493588849!5m2!1snl!2sbe" 
-                width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <img src="assets/map.png" alt="photo">
             </div>
                 
-                <div class="'section_icons_description flex center spaceA">
+                <div class="section_icons_description flex spaceA">
                     <div class ='img_description flex'>
                       <img src="assets/map_icon.png"alt ='photo'>
                       <p>Elithabeth, st Melbourn <br>
@@ -290,10 +289,36 @@
                     </div> 
                 </div>
 
-                <div>
+                <div class ='section_title_message flex margin_section_title_message'>
+                    <img class ='img_envelope'src="assets/envelope.png" alt="photo">
+                    <h1><span class="span_word">Leave</span> <span class="span_word_two">A Message</span></h1>
+                </div>    
 
-                </div>        
-        
+                    <form>
+                <div class = 'container_input flex center'>
+                        <div class ='lable_title_name flex column margin_input'>
+                            <label for ='name'>Name</label>
+                            <input type="text" id ="name"placeholder = 'Name'>
+                        </div>
+                        <div class ='lable_title_email flex column' >
+                            <label for ='email'>Email</label>
+                            <input type="text" id ="email"placeholder = 'Email'>
+                        </div>  
+                 </div>
+
+                    <div class="textarea_input flex column center">
+                        <p>Message</p>
+                        <textarea id = 'textarea'rows="10" cols="65" name="Message" placeholder="Message"></textarea> 
+
+                        <div class="btn_wrapper margin_submit">
+                            <input type ='submit' value ='Send Message'>
+                        </div>
+                        
+                    </div >
+                       
+                </form>
+                    
+                
                </section>
 
     </main>

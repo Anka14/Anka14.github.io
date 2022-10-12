@@ -2,17 +2,59 @@
 
 @media only screen and (max-width: 768px) {
   
+  .pageOne {
+    width: 100%;
+  }
+
+
+  .nav {
+    font-size: 10px;
+    width: 100%;
+  }
+
+  .header {
+   padding-left: 80px;
+  }
+
+ .title_header {
+    font-size: 40px;
+  }
   .picture_header, .header_arrow_description, .header_arrow_right_description {
     display:none;
+  }
+
+  .header_line {
+    display: none;
+  }
+
+  
+  .titleP2{
+    font-size: 30px;
+  }
+  .flex {
+    width: 100%;
+  }
+  .pageTwo {
+    width:100vw;
+  }
+
+  .buttons {
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+   .servicesP2 {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
   }
   .second {
     flex-direction: column;
   }
- .buttons {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
- }
+ 
  .images {
   flex-direction: column;
  }
@@ -26,8 +68,43 @@
   display: flex;
   flex-direction: column;
  }
+  .headOfPage {
+    width: 70%;
+  }
+  .parP2 {
+    font-size: 10px;
+  }
+.pageFive {
+  width: 80%;
+}
+ .main_content_sectionFive {
+  width: 100%;
+ }
+ .sectionFive_par{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 10px;
+ }
+
+ .roofs {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+ }
+
+ .pageSix {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .section_icons_description {
+  display:flex;
+  flex-direction: column;
+ }
+ 
 }
 
-@media only screen and (max-width: 768px) {
- 
+@media only screen and (max-width: 480px) {
+
 }

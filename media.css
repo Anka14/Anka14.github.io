@@ -14,12 +14,37 @@
 .header {
   justify-content: center;
 }
+ 
 
-.servicesP2 {
+
+}
+ .servicesP2 {
+  max-width:  100%;
+ }
+
+
+
+ .images, .images2emRow,.images3rdRow {
+  display: none;
+ }
+
+ .second {
+  max-width: 100%
+ }
+
+ .buttons {
   max-width: 100%;
   
-}
-}
+ }
+ 
+ 
+ .btn-page-three {
+  width: 80%;
+  justify-content: center;
+ }
+
+ 
+
 
 
 

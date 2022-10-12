@@ -130,11 +130,11 @@
     font-size: 60%;
     font-weight: 700;
 }
-
 .paddingP2
 {
   padding: 3% 2% 5% 2%;
 }
+
 .title_header {
   font-size: 50px;
   font-family:'Times New Roman', Times, serif;
@@ -305,6 +305,7 @@ width: 300%;
 .pageEight {
   width: 100%;
 }
+
 .pageEight_header {
   width: 100%;
 }
@@ -312,6 +313,7 @@ width: 300%;
 .my_map {
   width: 80%;
 }
+
 
 #testimonials{
   color: #0167f3;
@@ -477,6 +479,7 @@ margin-left: 8%;
     font-weight: 700;
     margin: 0 0 5% 0;
 }
+
 .footerBag{
   background-color: black;
   justify-content:center;
@@ -518,6 +521,7 @@ padding-right: 10%;
 .spaceIcons{
   padding: 1%;
 }
+
 
 #name, #email {
 background-repeat: no-repeat;
@@ -614,3 +618,4 @@ background-image: url(assets/man_input.png);
   padding-left: 15%;
   margin-right: 15%;
 }
+

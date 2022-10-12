@@ -329,6 +329,9 @@ width: 300%;
 .arrowLeft{
   padding: 2%;
 }
+.arrowPg6{
+  padding-top: 10%;
+}
 .rightSide{
   width: 50%;
   margin-right: 15%;
@@ -467,4 +470,44 @@ margin-left: 8%;
     font-weight: 700;
     margin: 0 0 5% 0;
 }
-
+.footerBag{
+  background-color: black;
+  justify-content:center;
+  padding: 0;
+  
+}
+.contact{
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-left: 45%;
+  padding-top: 3%;
+  
+}
+.svg{
+  padding-left: 50%;
+  padding-top: 6%;
+}
+.contact2{
+padding: 10%;
+margin-right: 22%;
+padding-right: 10%;
+}
+#wordBlue{
+  color: blue;
+  
+}
+#mail{
+  color: white;
+  margin-left: -200%;
+}
+#phone{
+  margin-left: -200%;
+}
+#lastText{
+  margin-left: -190%;
+  padding-top: 10%;
+}
+.spaceIcons{
+  padding: 1%;
+}

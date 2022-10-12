@@ -130,6 +130,7 @@
     font-size: 60%;
     font-weight: 700;
 }
+
 .paddingP2
 {
   padding: 3% 2% 5% 2%;
@@ -304,7 +305,13 @@ width: 300%;
 .pageEight {
   width: 100%;
 }
+.pageEight_header {
+  width: 100%;
+}
 
+.my_map {
+  width: 80%;
+}
 
 #testimonials{
   color: #0167f3;
@@ -321,6 +328,17 @@ width: 300%;
   margin-left: 15%;
   
 }
+
+.arrowPg6{
+  color: #a4a4a4;
+}
+.arrowLeft{
+  padding: 2%;
+}
+.arrowPg6{
+  padding-top: 10%;
+}
+
 .rightSide{
   width: 50%;
   margin-right: 15%;
@@ -361,11 +379,74 @@ width: 300%;
   
 }
 .backgroundRightSide{
-background-image: url(./assets/pg6.JPG);
+/* background-image: url(); 
 background-repeat: no-repeat;
-background-size: cover;
-margin-bottom: -3%;
+background-size: cover; 
+margin-bottom: -3%; */
+  width: 300px;
+  height: 270px;
+  background-image: url(/assets/brouiller\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  padding: 7%;
+  margin-top: 25%;
+  margin-left: 5%;
 }
+.whiteBox{
+  width: 375px;
+  height: 300px;
+  border-radius: 50px;
+  
+  background-color: white;
+  
+}
+.containerWhiteBox{
+  margin-top: -58%;
+  margin-left: 15%;
+}
+#textWhiteBox{
+padding-top: 10%;
+text-align: left;
+margin-left: 8%;
+
+
+}
+.imgAvis{
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  padding: 10%;
+  margin-top: 4%;
+}
+.namePos{
+  margin-top: -30%;
+  padding-left: 30%;
+  font-size: small;
+}
+.stars{
+  color: #ffb400;
+  margin-left: 70%;
+  
+
+}
+#reviews{
+  color: black;
+  
+}
+.bagStars{
+  margin: -14%;
+  padding-right: 10%;
+}
+#lineBoxPg6{
+  width: 85%;
+  
+}
+
+#discWork{
+  margin-top: -3%;
+}
+
 .paroneP4
 {
     padding-left: 5%;
@@ -395,6 +476,47 @@ margin-bottom: -3%;
     color: #006af2;
     font-weight: 700;
     margin: 0 0 5% 0;
+}
+.footerBag{
+  background-color: black;
+  justify-content:center;
+  padding: 0;
+  
+}
+.contact{
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-left: 45%;
+  padding-top: 3%;
+  
+}
+.svg{
+  padding-left: 50%;
+  padding-top: 6%;
+}
+.contact2{
+padding: 10%;
+margin-right: 22%;
+padding-right: 10%;
+}
+#wordBlue{
+  color: blue;
+  
+}
+#mail{
+  color: white;
+  margin-left: -200%;
+}
+#phone{
+  margin-left: -200%;
+}
+#lastText{
+  margin-left: -190%;
+  padding-top: 10%;
+}
+.spaceIcons{
+  padding: 1%;
 }
 
 #name, #email {

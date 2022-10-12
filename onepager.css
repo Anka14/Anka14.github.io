@@ -323,6 +323,12 @@ width: 300%;
   margin-left: 15%;
   
 }
+.arrowPg6{
+  color: #a4a4a4;
+}
+.arrowLeft{
+  padding: 2%;
+}
 .rightSide{
   width: 50%;
   margin-right: 15%;
@@ -363,11 +369,74 @@ width: 300%;
   
 }
 .backgroundRightSide{
-background-image: url(./assets/pg6.JPG);
+/* background-image: url(); 
 background-repeat: no-repeat;
-background-size: cover;
-margin-bottom: -3%;
+background-size: cover; 
+margin-bottom: -3%; */
+  width: 300px;
+  height: 270px;
+  background-image: url(/assets/brouiller\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  padding: 7%;
+  margin-top: 25%;
+  margin-left: 5%;
 }
+.whiteBox{
+  width: 375px;
+  height: 300px;
+  border-radius: 50px;
+  
+  background-color: white;
+  
+}
+.containerWhiteBox{
+  margin-top: -58%;
+  margin-left: 15%;
+}
+#textWhiteBox{
+padding-top: 10%;
+text-align: left;
+margin-left: 8%;
+
+
+}
+.imgAvis{
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  padding: 10%;
+  margin-top: 4%;
+}
+.namePos{
+  margin-top: -30%;
+  padding-left: 30%;
+  font-size: small;
+}
+.stars{
+  color: #ffb400;
+  margin-left: 70%;
+  
+
+}
+#reviews{
+  color: black;
+  
+}
+.bagStars{
+  margin: -14%;
+  padding-right: 10%;
+}
+#lineBoxPg6{
+  width: 85%;
+  
+}
+
+#discWork{
+  margin-top: -3%;
+}
+
 .paroneP4
 {
     padding-left: 5%;

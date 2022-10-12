@@ -1,73 +1,33 @@
-@media only screen and (max-width: 1200px) {
- .flex {
-  max-width: 100%;
- }
- .buttons {
-  max-width: 5%;
- }
-}
-
-@media only screen and (max-width: 992px) {
-  .flex {
-    max-width: 90%;
-   }
-.picture_header, .header_arrow_description, .header_arrow_right_description {
-  display:none;
-}
-.header {
-  justify-content: center;
-}
-
-.pageFive {
-  max-width: 100%;
-  height: auto;
-  
-}
- .sectionFive_par {
-  max-width: 100%;
- }
- .roofs {
-display:none
- }
- .pageEight {
-  max-width: 100%;
- }
- .section_icons_description {
-  max-width: 100%;
- }
-
-}
  
 
 @media only screen and (max-width: 768px) {
-  .flex {
-    max-width: 100%;
-   }
   
-.pageOne {
-  max-width: 100%;
-}
-.pageFive {
-  max-width: 100%;
-  height: auto;
-}
-.pageEight_header {
-  max-width: 100%;
-}
+  .picture_header, .header_arrow_description, .header_arrow_right_description {
+    display:none;
+  }
+  .second {
+    flex-direction: column;
+  }
+ .buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ .images {
+  flex-direction: column;
+ }
+ .images2emRow {
+  flex-direction: column;
+ }
+ .images3rdRow{
+  flex-direction: column;
+ }
+ .sectionFive_par {
+  display: flex;
+  flex-direction: column;
+ }
 }
 
 @media only screen and (max-width: 768px) {
-  .flex {
-    max-width: 100%;
-   }
-   .pageOne {
-    max-width: 100%;
-  }
-  .pageFive {
-    max-width: 100%;
-    height: auto;
-  }
-  .pageEight_header {
-    max-width: 100%;
-  }
+ 
 }

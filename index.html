@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
 </link>
 </head>
@@ -62,7 +63,8 @@
                 <p class="center quoteP2">Stop wasting time and money designing and managing a website that don't get results. Happiness guaranteed!</p>
             </figure>
             <figure class="flex spaceB">
-                <div class="servicesP2 spaceB whiteBackground">
+
+                <div class="servicesP2 paddingP2 flex column spaceB whiteBackground">
                     <div class="flex spaceB">
                         <h3 class="sectionP2">Graphics design</h3>
                         <img src="./assets/oplogo1.png" alt="">
@@ -70,7 +72,9 @@
                     <p class="parP2">Short description for the ones who look for something new. Short description for the ones who look for something new.</p>
                     <p class="learnmore">LEARN MORE</p>
                 </div>
-                <div class="servicesP2 spaceB whiteBackground">
+
+                <div class="servicesP2 paddingP2 flex column spaceB whiteBackground">
+
                     <div class="flex spaceB">
                         <h3 class="sectionP2">Website Design</h3>
                         <img src="./assets/oplogo2.png" alt="">
@@ -78,7 +82,9 @@
                     <p class="parP2">Short description for the ones who look for something new. Short description for the ones who look for something new.</p>
                     <p class="learnmore">LEARN MORE</p>
                 </div>
-                <div class="servicesP2 spaceB whiteBackground">
+
+                <div class="servicesP2 paddingP2 flex column spaceB whiteBackground">
+
                     <div class="flex spaceB">
                         <h3 class="sectionP2">Digital Marketing</h3>
                         <img src="./assets/oplogo3.png" alt="">
@@ -256,9 +262,7 @@
              </div>
             </div>
         </section>
-
-
-        <section class="pageTwo flex greybackground column">
+        <section class="pageTwo flex whiteBackground column">
             <figure class="flex column aligncenter">
                 <h2 class="titleP2 center">Meet the team</h2>
                 <p class="center quoteP2">Stop wasting time and money designing and managing a website that don't get results.
@@ -293,11 +297,10 @@
                 <h1 class ='pageEight_title flex center'>Contact</h1>
                 <p class = 'header_par'>Stop wasting time and money designing and managing a website <br>
                     that doesn't get results.Happiness guaranteed!</p> 
-                <iframe  class ='map_iframe flex center' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25234.570872057808!2d-122.41405950000001!3d37.75906239999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e3c5f803323%3A0x35800073de45189!2sMission%20District%2C%20San%20Francisco%2C%20Californi%C3%AB%2C%20Verenigde%20Staten!5e0!3m2!1snl!2sbe!4v1665493588849!5m2!1snl!2sbe" 
-                width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <img src="assets/map.png" alt="photo">
             </div>
                 
-                <div class="'section_icons_description flex center spaceA">
+                <div class="section_icons_description flex spaceA">
                     <div class ='img_description flex'>
                       <img src="assets/map_icon.png"alt ='photo'>
                       <p>Elithabeth, st Melbourn <br>
@@ -315,13 +318,38 @@
                             +333 985-421-654</p>  
                     </div> 
                 </div>
+                <div class ='section_title_message flex margin_section_title_message'>
+                    <img class ='img_envelope'src="assets/envelope.png" alt="photo">
+                    <h1><span class="span_word">Leave</span> <span class="span_word_two">A Message</span></h1>
+                </div>    
 
-                <div>
+                    <form>
+                <div class = 'container_input flex center'>
+                        <div class ='lable_title_name flex column margin_input'>
+                            <label for ='name'>Name</label>
+                            <input type="text" id ="name"placeholder = 'Name'>
+                        </div>
+                        <div class ='lable_title_email flex column' >
+                            <label for ='email'>Email</label>
+                            <input type="text" id ="email"placeholder = 'Email'>
+                        </div>  
+                 </div>
 
-                </div>        
-        
+                    <div class="textarea_input flex column center">
+                        <p>Message</p>
+                        <textarea id = 'textarea'rows="10" cols="65" name="Message" placeholder="Message"></textarea> 
+
+                        <div class="btn_wrapper margin_submit">
+                            <input type ='submit' value ='Send Message'>
+                        </div>
+                        
+                    </div >
+                       
+                </form>
+                    
+                
                </section>
-               <footer>
+                              <footer>
                 <div class="footerBag flex column ">
                     <svg class="svg" enable-background="new 0 0 64 64" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg"><g fill="#fff"><path d="m60 9.3h-56c-2.1 0-4 1.9-4 4v26.7c0 2.1 1.9 4 4 4h25.3v5.3h-10.6c-1.6 0-2.7 1.1-2.7 2.7s1.1 2.7 2.7 2.7h26.7c1.6 0 2.7-1.1 2.7-2.7s-1.1-2.7-2.7-2.7h-10.7v-5.3h25.3c2.1 0 4-1.9 4-4v-26.7c0-2.1-1.9-4-4-4zm-1.3 29.4h-53.4v-24h53.3v24z"/><path d="m17.3 36c2.1 0 4-1.9 4-4 1.3-1.1 3.5-2.7 5.3-4.3.6.3.9.3 1.4.3 1.1 0 1.9-.3 2.7-1.1l4.8 1.6c.8.3 1.6.3 2.4-.3l4.8-3.2c.5.3 1.1.3 1.6.3 2.1 0 4-1.9 4-4s-2.1-4-4.3-4c-1.9 0-3.2 1.1-3.7 2.7l-4.5 2.9-4.5-1.3c-.9-1.1-2-1.6-3.3-1.6-1.9 0-3.5 1.3-3.7 2.9-2.1 1.6-5.1 4-6.4 5.1h-.3c-2.4 0-4.3 1.9-4.3 4s1.9 4 4 4z"/></g></svg>
                     <div class="contact flex center">
@@ -339,7 +367,7 @@
                 </div>
 
                </footer>
-            
+
 
     </main>
 </body>

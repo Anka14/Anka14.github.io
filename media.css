@@ -8,40 +8,66 @@
 }
 
 @media only screen and (max-width: 992px) {
-.flex {
-  max-width: 100%;
-}
+  .flex {
+    max-width: 90%;
+   }
 .picture_header, .header_arrow_description, .header_arrow_right_description {
   display:none;
 }
 .header {
   justify-content: center;
 }
+
 .pageFive {
-  width: 320px;
-  min-width: 320px;
- }
- 
- .title_pageFive{
-  max-width: 98%;
+  max-width: 100%;
   height: auto;
+  
+}
+ .sectionFive_par {
+  max-width: 100%;
  }
- .sectionFive_img_down{
-  max-width: 98%;
-  height: auto;
+ .roofs {
+display:none
  }
- 
+ .pageEight {
+  max-width: 100%;
+ }
+ .section_icons_description {
+  max-width: 100%;
+ }
+
 }
  
 
- 
-
- 
-
-
-
-
+@media only screen and (max-width: 768px) {
+  .flex {
+    max-width: 100%;
+   }
+  
+.pageOne {
+  max-width: 100%;
+}
+.pageFive {
+  max-width: 100%;
+  height: auto;
+}
+.pageEight_header {
+  max-width: 100%;
+}
+}
 
 @media only screen and (max-width: 768px) {
-
+  .flex {
+    max-width: 100%;
+   }
+   .pageOne {
+    max-width: 100%;
+  }
+  .pageFive {
+    max-width: 100%;
+    height: auto;
+  }
+  .pageEight_header {
+    max-width: 100%;
+  }
 }

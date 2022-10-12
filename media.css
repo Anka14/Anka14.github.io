@@ -2,9 +2,12 @@
  .flex {
   max-width: 100%;
  }
+ .buttons {
+  max-width: 5%;
+ }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
 .flex {
   max-width: 100%;
 }
@@ -14,34 +17,24 @@
 .header {
   justify-content: center;
 }
+.pageFive {
+  width: 320px;
+  min-width: 320px;
+ }
  
-
-
+ .title_pageFive{
+  max-width: 98%;
+  height: auto;
+ }
+ .sectionFive_img_down{
+  max-width: 98%;
+  height: auto;
+ }
+ 
 }
- .servicesP2 {
-  max-width:  100%;
- }
-
-
-
- .images, .images2emRow,.images3rdRow {
-  display: none;
- }
-
- .second {
-  max-width: 100%
- }
-
- .buttons {
-  max-width: 100%;
-  
- }
  
+
  
- .btn-page-three {
-  width: 80%;
-  justify-content: center;
- }
 
  
 
@@ -49,6 +42,6 @@
 
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
 
 }
